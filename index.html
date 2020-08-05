@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neil's Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awsome -->
+    <script
+      src="https://kit.fontawesome.com/f2285a2c69.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6 box1 no-gutters">
+            <!-- Menu -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01"
+                aria-expanded="true"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                  <li class="nav-item active menu-item">
+                    <a class="nav-link" href="index.html"
+                      >Home<span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item menu-item">
+                    <a class="nav-link" href="#work">Work</a>
+                  </li>
+                  <li class="nav-item menu-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item menu-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+            <!-- Presentation Text -->
+            <h1>
+              <div class="text-box font-weight-bold" id="typedtext"></div>
+            </h1>
+          </div>
+
+          <!-- Image -->
+          <div class="col-6 img-box no-gutters">
+            <img
+              src="asset/portrait.png"
+              alt="portrait"
+              class="img-responsive"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Work -->
+    <div class="container-fluid">
+      <h2 id="work"><a>Some of my work</a></h2>
+    </div>
+
+    <!-- Cards -->
+    <div class="container-fluid">
+      <div class="row">
+        <a href="https://coowoork.000webhostapp.com/index.html">
+        <div class="card col-5">
+          <img
+            class="card-img-top"
+            src="asset/CoWork.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="text-center title"><a class="card-title">CoWork</a></p>
+          </div>
+        </a>
+        </div>
+        <a href="https://neilbouiche.github.io/Profile/">
+          <div class="card col-5">
+            <img
+              class="card-img-top"
+              src="asset/Profile.png"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <p class="text-center title"><a class="card-title">Profile</a></p>
+            </div>
+        </a>
+        </div>
+      </div>
+      <div class="row">
+        <a href="http://neilb.sgedu.site">
+        <div class="card col-5">
+          <img class="card-img-top" src="asset/AC.png" alt="Card image cap" />
+          <div class="card-body">
+            <p class="text-center title">
+              <a class="card-title">Amazing College</a>
+            </p>
+          </div>
+        </a>
+        </div>
+        <a href="https://mighty-peak-84471.herokuapp.com">
+        <div class="card col-5">
+          <img
+            class="card-img-top"
+            src="asset/ToDo.png"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <p class="text-center title"><a class="card-title">To Do App</a></p>
+          </div>
+        </div>
+      </a>
+      </div>
+    </div>
+
+    <!-- About -->
+    <div class="container-fluid text-center">
+      <h2 class="col-11" id="about"><a>About</a></h2>
+      <div class="container">
+        <div class="presentation-box">
+        <p class="text-left text-presentation">
+          I am a young freelance web developer based in Paris.
+          I naturally oriented myself towards computer sciences years ago in
+          which I found my path ! Nowadays I feel fulfiled in my work thanks to
+          the projects I led.
+        </p>
+        <p class="text-left text-presentation">
+          What's important to me is to communicate with you. My goal is to match
+          perfectly the vision you have in mind !
+        </p>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="container-fluid text-center">
+      <h2 class="col-11" id="contact"><a>Contact me</a></h2>
+      <a href="mailto: neil.bouiche@icloud.com"
+        ><button type="button" class="btn btn-rounded">
+          <i class="fas fa-at mail"></i></button
+      ></a>
+      <a href="tel:+33769171931"
+        ><button type="button" class="btn btn-rounded">
+          <i class="fas fa-phone call"></i></button
+      ></a>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="container-fluid">
+      <footer>
+        <div class="footer-box">
+          <div class="footer-text">
+            <p class="text-center footer1 col-12">
+              Email <i class="fas fa-at"></i>: neil.bouiche@gmail.com
+            </p>
+            <p class="text-center footer1">
+              © 2020 Neil Bouiche. All rights reserved.
+            </p>
+            <p class="text-center footer1">
+              Tel <i class="fas fa-phone"></i>: +33769171931
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
